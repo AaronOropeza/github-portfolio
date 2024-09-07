@@ -1,3 +1,11 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "jsx": "react-jsx", // For React 17+ (use "react" for older versions of React)
+    "moduleResolution": "node", 
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true, // For compatibility with React imports
+    "skipLibCheck": true, // Optional: to skip type checking of third-party libraries
+    "forceConsistentCasingInFileNames": true
+  }
 }
