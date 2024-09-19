@@ -1,62 +1,60 @@
 import type { Props as ExperienceProp } from "../components/experience/props";
 
+// Education details
+export const EDUCATION = {
+  school: "University of Wisconsin-Milwaukee",
+  degree: "Bachelor of Arts in Computer Science | Minor in Web Development",
+  dates: "May 2022 — December 2024",
+  location: "Milwaukee, WI",
+};
+
+// Experience details
 export const EXPERIENCE: ExperienceProp[] = [
   {
-    dates: "November 2021 — Present",
-    title: "Full Stack Engineer",
-    company: "Dutch Pet (Remote)",
-    companyUrl: "https://www.dutch.com",
+    dates: "May 2023 — Present",
+    title: "IT-Architecture Student Intern",
+    company: "WEC Energy Group",
+    companyUrl: "https://www.wecenergygroup.com",
     description:
-      "Designed and architected dutch.com, utilizing technologies such as Shopify Storefront API, Admin API, Vue.JS, Node.JS, Liquid, Alpine.js, and Tailwind. Worked on integrating with the ReCharge subscription system and collaborated closely with designers to implement pixel-perfect layouts and user flows.",
+      "Managed databases for applications using tools like Microsoft SQL Server Management Studio and Visual Studio Code. Collaborated with fellow interns on a company-based project aimed at using modern technology to address complex issues in Milwaukee. Seamlessly integrated into the IT-Architecture team, handling tasks and responsibilities equivalent to those of a regular employee.",
     technologies: [
-      "Shopify Storefront API",
-      "Shopify Admin API",
-      "Vue.JS",
-      "Node.JS",
-      "Liquid",
-      "Alpine.js",
-      "Tailwind",
+      "Microsoft SQL Server",
+      "Visual Studio Code",
+      "Team Collaboration",
     ],
-    logo: "/logos/dutchpet.jpeg",
+    logo: "/logos/wec-energy-group.jpeg",
   },
   {
-    dates: "March 2021 — November 2021",
-    title: "Full Stack Ecommerce Engineer",
-    company: "AbsoluteWeb",
-    companyUrl: "https://www.absoluteweb.com",
+    dates: "May 2022 — September 2022",
+    title: "Fuse Intern",
+    company: "Milwaukee Tech Hub Coalition",
+    companyUrl: "https://mketech.org",
     description:
-      "Developed and maintained e-commerce solutions on Shopify (Storefront API, Admin API), BigCommerce, and Magento using React JS, Vue JS, Node JS, Liquid, SASS/PostCSS. Worked on integrating with the ReCharge subscription system and collaborated closely with designers to implement pixel-perfect layouts and user flows.",
+      "Participated in a 3-month program focused on the Ethics and Impact of Artificial Intelligence. Explored how data is sourced, structured, trained, and leveraged to deploy technological solutions. Utilized industry tools like Excel, Power BI, and Python for coding and AI programming. Collaborated in a group project to solve a complex problem in Milwaukee using modern technology.",
     technologies: [
-      "React JS",
-      "Vue JS",
-      "Node JS",
-      "Shopify Storefront API",
-      "Shopify Admin API",
-      "BigCommerce",
-      "Magento",
-      "Liquid",
-      "SASS/PostCSS",
+      "Excel",
+      "Power BI",
+      "Python",
+      "AI Programming",
     ],
-    logo: "/logos/aws.jpeg",
+    logo: "/logos/mke-tech-hub.jpeg",
   },
-  {
-    dates: "December 2019 — January 2021",
-    title: "Product Designer",
-    company: "Miinto",
-    companyUrl: "https://www.miinto.com",
-    description:
-      "Created a Design System for the internal system using Figma. Developed a plugin for Figma to populate prototypes with real data to enhance the prototyping and testing experience. Conducted user research and testing, and created user flows, wireframes, and Hi-Fi prototypes.",
-    technologies: ["Figma"],
-    logo: "/logos/miinto.jpeg",
-  },
-  {
-    dates: "January 2019 — September 2019",
-    title: "Front-End Engineer",
-    company: "Efigence",
-    companyUrl: "https://www.efigence.com",
-    description:
-      "Worked on developing a Polish Government Joint Stock Company website using JS, Magnolia CMS, and FreeMarker.",
-    technologies: ["JavaScript", "Magnolia CMS", "FreeMarker"],
-    logo: "/logos/efigence.jpeg",
-  },
+];
+
+// Skills Summary
+export const SKILLS_SUMMARY = [
+  "Java",
+  "Python",
+  "HTML",
+  "CSS",
+  "C#",
+  "MySQL",
+  "Microsoft Power BI",
+  "AI Prompting",
+  "AI Image Creation",
+  "Excel",
+  "Microsoft SQL Management Studio",
+  "Team Development",
+  "English",
+  "Spanish"
 ];
