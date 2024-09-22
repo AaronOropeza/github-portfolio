@@ -1,13 +1,5 @@
 import type { Props as ExperienceProp } from "../components/experience/props";
 
-// Education details
-export const EDUCATION = {
-  school: "University of Wisconsin-Milwaukee",
-  degree: "Bachelor of Arts in Computer Science | Minor in Web Development",
-  dates: "May 2022 — December 2024",
-  location: "Milwaukee, WI",
-};
-
 // Experience details
 export const EXPERIENCE: ExperienceProp[] = [
   {
@@ -22,7 +14,7 @@ export const EXPERIENCE: ExperienceProp[] = [
       "Visual Studio Code",
       "Team Collaboration",
     ],
-    logo: "/logos/wec-energy-group.jpeg",
+    logo: "/logos/wec-energy-group.png",
   },
   {
     dates: "May 2022 — September 2022",
@@ -37,24 +29,6 @@ export const EXPERIENCE: ExperienceProp[] = [
       "Python",
       "AI Programming",
     ],
-    logo: "/logos/mke-tech-hub.jpeg",
+    logo: "/logos/mke-tech-hub.png",
   },
-];
-
-// Skills Summary
-export const SKILLS_SUMMARY = [
-  "Java",
-  "Python",
-  "HTML",
-  "CSS",
-  "C#",
-  "MySQL",
-  "Microsoft Power BI",
-  "AI Prompting",
-  "AI Image Creation",
-  "Excel",
-  "Microsoft SQL Management Studio",
-  "Team Development",
-  "English",
-  "Spanish"
 ];
